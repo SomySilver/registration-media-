@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(bg-intro-desktop.png);
+  background-color: hsl(0, 100%, 74%);
+  color: white;
+  font-size: 15px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90vh;
+}
+
+header {
+  margin-left: 12.5%;
+  margin-right: 5%;
+  width: 40%;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 600px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  line-height: 45px;
+}
+
+header > p {
+  font-weight: 400px;
+  word-spacing: 5px;
+  line-height: 20px;
+  margin-bottom: 50px;
+}
+
+section {
+  margin-right: 12.5%;
+  width: 35%;
+  text-align: center;
+}
+
+.Trial {
+  text-align: center;
+  background-color: hsl(248, 32%, 49%);
+  padding: 15px 45px;
+  border-radius: 15px;
+  box-shadow: outset 0 6px 1px hsl(0, 100%, 74%);
+  margin-bottom: 30px;
+  margin-top: 58px;
+}
+
+form {
+  background-color: white;
+  /*/padding: 20px;*/
+  border-radius: 15px;
+  font-weight: 700px;
+  margin-bottom: 20px;
+  box-shadow: outset 0 6px 1px hsl(249deg 10% 26%);
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+
+div {
+  display: block;
+}
+
+.Form {
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: hsl(158, 59%, 51%);
+  padding: 15px;
+  color: white;
+  width: 90%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: inset;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+form > .Click {
+  color: hsl(246, 25%, 77%);
+  width: 90%;
+  margin: auto;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+input {
+  width: 90%;
+  height: 40px;
+  padding-left: 10px;
+}
